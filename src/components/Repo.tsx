@@ -14,7 +14,7 @@ export default function Repo() {
                                     <span className="text-white font-semibold">portfolio-website</span>
                                 </div>
                                 <p className="text-white overflow-hidden font-sans">
-                                    This portfolio website that's made with NextJS and TailwindCSS.
+                                    This portfolio website that&apos;s made with NextJS and TailwindCSS.
                                 </p>
                                 <div className="mt-1 flex flex-row space-x-2">
                                     <img className="flex-shrink-0 sm:h-7 sm:w-7 h-5 w-5" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>
@@ -35,7 +35,7 @@ export default function Repo() {
                                     <span className="text-white font-semibold">cougar-supply-den</span>
                                 </div>
                                 <p className="text-white overflow-hidden font-sans">
-                                    point-of-sale website that's built from MySQL and Microsoft Azure Services.
+                                    point-of-sale website that&apos;s built from MySQL and Microsoft Azure Services.
                                 </p>
                                 <div className="mt-1 flex flex-row space-x-2">
                                     <img className="flex-shrink-0 sm:h-7 sm:w-7 h-5 w-5" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>

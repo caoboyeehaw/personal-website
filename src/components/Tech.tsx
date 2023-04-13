@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import 'react-tippy/dist/tippy.css';
 import { Tooltip, withTooltip } from 'react-tippy';
+import Text from '../components/Text';
 
 export default function Tech() {
     return(
@@ -11,11 +12,24 @@ export default function Tech() {
         </div>
         <div className="grid grid-cols-2 gap-5 mt-5 sm:gird-cols-3 md:grid-cols-4">
             <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <img className="flex-shrink-0 h-7 w-7" src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"/>
+                <Image
+                    className="flex-shrink-0 h-7 w-7"
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
+                    alt=""
+                    width={28}
+                    height={28}
+                />
                 <span className="lang font-medium">HTML5</span>
             </div> 
             <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <img className="flex-shrink-0 h-7 w-7" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1280px-CSS3_logo.svg.png"/>
+
+                <Image
+                    className="flex-shrink-0 h-7 w-7"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1280px-CSS3_logo.svg.png"
+                    alt=""
+                    width={28}
+                    height={28}
+                />                
                 <span className="lang font-medium">CSS3</span>
             </div> 
             <div className="flex space-x-2 text-white items-center overflow-hidden">

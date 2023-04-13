@@ -17,6 +17,11 @@ module.exports = {
       colors: {
         'github-grey': '#30363d',
       },
+
+      boxShadow: {
+        '4xl': '10px 20px 45px -15px rgba(0, 0, 0, 0.6)',
+        '5xl': '5px 12px 20px -12px rgba(0, 0, 0, 0.8)',
+      }
     },
   },
   

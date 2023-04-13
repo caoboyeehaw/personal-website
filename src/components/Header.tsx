@@ -1,6 +1,7 @@
 import image from 'next/image'
 import Link from 'next/link'
 import Anchor from '../components/Anchor';
+import Text from '../components/Text';
 
   export default function Header() {
 
@@ -15,24 +16,22 @@ import Anchor from '../components/Anchor';
 
                     <div className="flex">
 
-
                         <Link href="/">
-                            <div className="hover:bg-gray-400 hover:bg-opacity-20 rounded py-1 px-3">Home</div>
+                            <div className="hover:bg-gray-400 hover:bg-opacity-20 hover:shadow-5xl rounded py-1 px-3">Home</div>
                         </Link>
                         
                         <Link href="/about">
-                            <div className="hover:bg-gray-400 hover:bg-opacity-20 rounded py-1 px-3">About</div>
+                            <div className="hover:bg-gray-400 hover:bg-opacity-20 hover:shadow-5xl rounded py-1 px-3">About</div>
                         </Link>
 
                         <Link href="/resume">
-                            <div className="hover:bg-gray-400 hover:bg-opacity-20 rounded py-1 px-3">Resume</div>
+                            <div className="hover:bg-gray-400 hover:bg-opacity-20 hover:shadow-5xl rounded py-1 px-3">Resume</div>
                         </Link>
 
                         <Link href="https://medium.com/@dylanhoangcao">
-                            <div className="hover:bg-gray-400 hover:bg-opacity-20 rounded py-1 px-3">Blogs</div>
+                            <div className="hover:bg-gray-400 hover:bg-opacity-20 hover:shadow-5xl rounded py-1 px-3">Blogs</div>
                         </Link>
 
-                        
                     </div>
                 </div>
             </nav>

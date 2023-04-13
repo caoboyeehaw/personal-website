@@ -10,6 +10,8 @@ import Head from 'next/head';
 
 import { Tooltip, withTooltip } from 'react-tippy';
 
+import Text from '../components/Text';
+
 export default function HomePage() {
     return  (
     <>
@@ -35,9 +37,9 @@ export default function HomePage() {
             {/* https://github.com/marwin1991/profile-technology-icons */}      
             {/* https://www.npmjs.com/package/react-tippy */}
             
-                <p className="mt-5 font-normal leading-relaxed text-left px-12" >
-                    I'm a 22-year old, Seattle-born, Vietnamese-American software developer with creative tendencies. I code projects in my freetime and am looking forward towards contributing to software's crazy future! My passions are explained by my works: game development, web development, machine learning, data science, and web scraping.
-                </p>
+                <div className="mt-5 font-normal leading-relaxed text-left px-12" >
+                I'm a 22-year old, Seattle-born, Vietnamese-American software developer with creative tendencies. I code projects in my freetime and am looking forward towards contributing to software's crazy future! My passions are explained by my works: game development, web development, machine learning, data science, and web scraping.
+                </div>
                 </div>
             </div>
 

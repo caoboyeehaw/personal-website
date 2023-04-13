@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .full-container {
+        @apply max-w-2xl mx-auto px-6
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #35363a;
+    color: white;
+}
+.vsc, .extensions {
+    color: #00a8fc;
+    text-decoration: underline;
+    text-decoration-color: #252629;
+    
+}
+.lang{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ionicon {
+    color: #35363a;
+}

@@ -1,6 +1,8 @@
 import 'react-tippy/dist/tippy.css';
 import { Tooltip, withTooltip } from 'react-tippy';
 
+import { ReactNode } from 'react';
+
 export default function Ftr() {
     return (
         <>

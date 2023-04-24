@@ -29,22 +29,22 @@ export default function AboutPage() {
 
                     <div className="mt-4"></div>
                     <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 focus:justify-center">
-                        <div className="flex flex-row p-4 mt-2 text-base font-semibold bg-black bg-opacity-20 rounded-lg border border-black border-opacity-30 w-84 text-left space-x-3 items-center">
+                        <div className="flex flex-row p-4 mt-2 text-base font-semibold bg-black bg-opacity-20 rounded-lg border border-black border-opacity-30 w-84 text-left space-x-3 items-center hover:shadow-2xl hover:border-0">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" className="w-8 h-8"/>
-                            <li className="square list-none"><a href="https://code.visualstudio.com/" className="extensions"><Tooltip title="My most beloved text editor!" duration={100} animation="scale" theme="light">Visual Studio Code</Tooltip></a></li> 
+                            <li className="square list-none"><a href="https://code.visualstudio.com/" className="extensions"><div title="My most beloved text editor!">Visual Studio Code</div></a></li> 
                         </div>
                         
-                        <div className="flex flex-row p-4 mt-2 text-base font-semibold bg-black bg-opacity-20 rounded-lg border border-black border-opacity-30 w-84 text-left space-x-3 items-center">
+                        <div className="flex flex-row p-4 mt-2 text-base font-semibold bg-black bg-opacity-20 rounded-lg border border-black border-opacity-30 w-84 text-left space-x-3 items-center hover:shadow-2xl hover:border-0">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg" className="w-8 h-8"/>
-                            <li className="square list-none"><a href="https://desktop.github.com/" className="extensions"><Tooltip title="Used for updating/tracking Repos!" duration={100} animation="scale" theme="light" >GitHub Desktop</Tooltip></a></li>
+                            <li className="square list-none"><a href="https://desktop.github.com/" className="extensions"><div title="Used for updating/tracking Repos!">GitHub Desktop</div></a></li>
                         </div>
-                        <div className="flex flex-row p-4 mt-2 text-base font-semibold bg-black bg-opacity-20 rounded-lg border border-black border-opacity-30 w-84 text-left space-x-3 items-center">
+                        <div className="flex flex-row p-4 mt-2 text-base font-semibold bg-black bg-opacity-20 rounded-lg border border-black border-opacity-30 w-84 text-left space-x-3 items-center hover:shadow-2xl hover:border-0">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" className="w-8 h-8" />
-                            <li className="square list-none"><a href="https://colab.research.google.com/" className="extensions"><Tooltip title="Gnarly AI and data science over here!" duration={100} animation="scale" theme="light">Google Colab</Tooltip></a></li>
+                            <li className="square list-none"><a href="https://colab.research.google.com/" className="extensions"><div title="Gnarly AI and data science over here!">Google Colab</div></a></li>
                         </div>
-                        <div className="flex flex-row p-4 mt-2 text-base font-semibold bg-black bg-opacity-20 rounded-lg border border-black border-opacity-30 w-84 text-left space-x-3 items-center">
+                        <div className="flex flex-row p-4 mt-2 text-base font-semibold bg-black bg-opacity-20 rounded-lg border border-black border-opacity-30 w-84 text-left space-x-3 items-center hover:shadow-2xl hover:border-0">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" className="w-8 h-8"/>
-                            <li className="square list-none"><a href="https://openai.com/blog/chatgpt" className="extensions"><Tooltip title="Whenever I need an extra hand! :o" duration={100} animation="scale" theme="light">ChatGPT</Tooltip></a></li>
+                            <li className="square list-none"><a href="https://openai.com/blog/chatgpt" className="extensions"><div title="Whenever I need an extra hand! :o">ChatGPT</div></a></li>
                         </div>
                     </div>
                     </div>

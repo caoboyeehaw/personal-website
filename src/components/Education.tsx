@@ -30,7 +30,7 @@ export default function Edu() {
                         <div className="text-opacity-25 ">2019 - 2023</div>
                     </div>
                     <div className="pl-2 truncate text-opacity-20">
-                        BS, Computer Science
+                        BS, Computer Science, Mathematics Minor
                     </div>
                 </div>
             </div>

@@ -33,27 +33,63 @@ export default function Tech() {
                 <span className="lang font-medium">CSS3</span>
             </div> 
             <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <img className="flex-shrink-0 h-7 w-7" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>
+                <Image
+                    className="flex-shrink-0 h-7 w-7"
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                    alt=""
+                    width={28}
+                    height={28}
+                />  
                 <span className="lang font-medium">JavaScript</span>
             </div>     
             <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <img className="flex-shrink-0 h-7 w-7" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"/>
+                <Image
+                    className="flex-shrink-0 h-7 w-7"
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+                    alt=""
+                    width={28}
+                    height={28}
+                />
                 <span className="lang font-medium">TypeScript</span>
             </div>           
             <div className="px-1 flex space-x-2 text-white items-center overflow-hidden">
-                <img className="flex-shrink-0 h-8 w-6 " src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Database-mysql.svg"/>
+                <Image
+                    className="flex-shrink-0 h-7 w-7"
+                    src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Database-mysql.svg"
+                    alt=""
+                    width={28}
+                    height={28}
+                />
                 <span className="lang font-medium">MySQL</span>
             </div>
             <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <img className="flex-shrink-0 h-7 w-7" src="https://i.postimg.cc/L4fXJqSf/512px-Antu-mongodb-svg.png"/>
+                <Image
+                    className="flex-shrink-0 h-7 w-7"
+                    src="https://i.postimg.cc/L4fXJqSf/512px-Antu-mongodb-svg.png"
+                    alt=""
+                    width={28}
+                    height={28}
+                />
                 <span className="lang font-medium">MongoDB</span>
             </div>
             <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <img src="https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2F4dnlt8m2mcb98bzc4zb8pggc4csi&w=64&q=75" className="flex-shring-0 h-7 w-7" />
+                <Image
+                    className="flex-shrink-0 h-7 w-7"
+                    src="https://www.svgrepo.com/show/354113/nextjs-icon.svg"
+                    alt=""
+                    width={28}
+                    height={28}
+                />
                 <span className="lang font-medium">Next.js</span>
             </div>
             <div className="flex space-x-2 text-white items-center overflow-hidden">
-                <img className="flex-shrink-0 h-7 w-7" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png"/>
+                <Image
+                    className="flex-shrink-0 h-7 w-7"
+                    src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                    alt=""
+                    width={28}
+                    height={28}
+                />
                 <span className="lang font-medium">Tailwind CSS</span>
             </div>
         </div>

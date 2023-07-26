@@ -38,7 +38,7 @@ export default function HomePage() {
             {/* https://www.npmjs.com/package/react-tippy */}
             
                 <div className="mt-5 font-normal leading-relaxed text-left px-12" >
-                I&apos;m a 22-year old, Seattle-born, Vietnamese-American software developer with creative tendencies. I code projects in my freetime and am looking forward towards contributing to software&apos;s crazy future! My passions are explained by my works: game development, web development, machine learning, data science, and web scraping.
+                I&apos;m a 22-year old, Seattle-born, Vietnamese-American software developer with creative tendencies. I code projects in my freetime and am looking forward towards contributing to software&apos;s crazy future! My passions are game design, web development, machine learning, and data science.
                 </div>
                 </div>
             </div>
